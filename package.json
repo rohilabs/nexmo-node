@@ -39,7 +39,8 @@
     "lint": "eslint src test",
     "lint-fix": "eslint --fix src test",
     "prepublish": "npm run compile",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint",
+    "postinstall": "node postinstall.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
